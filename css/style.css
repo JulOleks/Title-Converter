@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+html{
+    font-family: 'Lato', sans-serif;
+}
+.container {}
+
+.container__converter {}
+
+.converter {
+    background: rgba(183, 221, 191, 0.4);
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    /* border: 1px solid #b3bf66; */
+    box-shadow: 1px 0 16px #648c6c;
+    border-radius: 50%;
+    padding: 1px;
+}
+.converter__eye{
+    border: 1px solid #000;
+    width: 90px;
+    margin: 0 auto;
+    margin-top: 58px;
+    /* padding-top: 64px; */
+    height: 90px;
+    background: #fff;
+    border-radius: 50%;
+}
+.eye__lashes{
+    
+}
+.eye__point{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    margin: 29px auto;
+    padding: 1px;
+}
+.point__white{
+    margin: 9px auto;
+    margin-left: 14px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+.converter__header {
+    width: 70%;
+    margin: 0 auto;
+    /* margin-top: 42px; */
+    font-size: 100px;
+    text-align: center;
+    /* padding-top: 45px; */
+    /* content: ""; */
+}
+
+.converter__input {
+    width: 70%;
+    margin: 0 auto;
+    /* background: black; */
+    margin-top: 5px;
+    /* font-size: 22px; */
+}
+
+.input__field {
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 50px;
+    font-size: 26px;
+    padding: 11px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.converter__result {
+    width: 70%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin-top: 33px;
+    font-size: 26px;
+    padding: 11px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Montaga', serif;
+    font-family: 'Lato', sans-serif;
+    
+}
+.converter-modal__copy{
+    /* display: none; */
+    background: rgb(0, 0, 0, 0.5);
+    width: 75px;
+    height: 40px;
+    text-align: center;
+    padding: 9px 0 0 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    color: #fff;
+}
