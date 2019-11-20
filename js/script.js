@@ -16,25 +16,25 @@ inputText.addEventListener("input", function () {
 
 
     return outputResult.textContent = deletelineResult;
-     
+
 
 });
 
 
-outputResult.addEventListener("click", function({target}){
-  if(target.innerText){
+outputResult.addEventListener("click", function ({ target }) {
+    if (target.innerText) {
         navigator.clipboard.writeText(target.innerText);
         modalCopy.innerText = "Copied";
         console.log("copied");
-  } else {
-      console.log("none");
-      modalCopy.innerText = "Empty";
-      
-  }
+    } else {
+        console.log("none");
+        modalCopy.innerText = "Empty";
+
+    }
 })
 
 function deletesigns(elem) {
-    let signs = ["?", ":", ";", "!", ",", ".", "/", "`", "\\", "{", "}", "_", ""];
+    let signs = ["?", ":", ";", "!", ",", ".", "/", "`", "\\", "{", "}", "_", "", "'", "'"];
 
     for (let i = 0; i < signs.length; i++) {
         if (elem === signs[i]) {
