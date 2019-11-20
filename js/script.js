@@ -34,7 +34,7 @@ outputResult.addEventListener("click", function ({ target }) {
 })
 
 function deletesigns(elem) {
-    let signs = ["?", ":", ";", "!", ",", ".", "/", "`", "\\", "{", "}", "_", "", "'", "'"];
+    let signs = ["?", ":", ";", "!", ",", ".", "/", "`", "\\", "{", "}", "_", "", "'"];
 
     for (let i = 0; i < signs.length; i++) {
         if (elem === signs[i]) {
